@@ -1,12 +1,11 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
-  -Version "<version>" `
+  -Version "2.0.0" `
   -PreReleaseVersion "beta.1" `
-  -OutputFilePrefix "<output file prefix>" `
-  -ModName "<mod name>" `
-  -ModFolder "<mod folder>" `
-  -AdditionalModFolders @() `
+  -OutputFilePrefix "Powerstation17" `
+  -ModName "Powerstation 17" `
+  -ModFolder "Powerstation 17" `
   -ModFilesPath "$PSScriptRoot\..\game" `
-  -ModBaseFilesUrl "<url to mod base files zip>" `
-  -ModBaseFilesUrlHash "<mod base files zip sha256>" `
-  -ModReadmePath "<mod readme path>" `
+  -ModBaseFilesUrl "https://github.com/HL2-Mods-Legacy-Project/hl2-legacy-registry/releases/download/powerstation17/Powerstation-17-Original.zip" `
+  -ModBaseFilesUrlHash "526720a3a9328df0f1e8ad30f4e160bac98cffeda7f8e4595314f33e9c284b28" `
+  -ModReadmePath "readme.txt" `
   -PublishPath "$PSScriptRoot\..\artifacts\publish"
