@@ -1,6 +1,6 @@
 & "$PSScriptRoot\..\gitmodules\mod-installer\build_all.ps1" `
   -Version "2.0.0" `
-  -PreReleaseVersion "beta.1" `
+  -PreReleaseVersion "beta.2" `
   -OutputFilePrefix "Powerstation17" `
   -ModName "Powerstation 17" `
   -ModFolder "Powerstation 17" `
